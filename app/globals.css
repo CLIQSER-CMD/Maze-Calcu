@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-gold-400: #E6C875;
+  --color-gold-500: #D4AF37;
+  --color-gold-600: #AA8B2C;
+  --color-gold-900: #443711;
+
+  --color-espresso-800: #2A1B14;
+  --color-espresso-900: #1A110B;
+  --color-espresso-950: #120B07;
+
+  --color-ivory: #FDFBF7;
+  --color-ivory-muted: #E8E2D9;
+
+  --color-maze-bg: #090808;
+  --color-maze-card: #141211;
+  --color-maze-border: #262220;
+
+  --font-heading: var(--font-outfit), sans-serif;
+  --font-body: var(--font-manrope), sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-maze-bg text-ivory font-body;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}

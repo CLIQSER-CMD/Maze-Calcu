@@ -1,0 +1,6 @@
+{
+  "name": "Trading Maze",
+  "description": "Trading Risk Calculator for Forex, Commodities, and Crypto.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
